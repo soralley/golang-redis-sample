@@ -46,7 +46,7 @@ func index(res http.ResponseWriter, req *http.Request) {
         return
     }
 
-    res.Write([]byte(fmt.Sprintf("Request number is %d", request)))
+    res.Write([]byte(fmt.Sprintf("Request Number is %d", request)))
 }
 
 func drop(res http.ResponseWriter, req *http.Request) {
